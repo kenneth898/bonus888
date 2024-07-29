@@ -83,25 +83,25 @@ export default {
 		return {
 			activeIndex: 0,
 			menuItems: [
-				{ name: 'Menu 1', activeSrc: '/public/image_webp/advanplay_active.webp', inactiveSrc: '/public/image_webp/advanplay_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 2', activeSrc: '/public/image_webp/jili_active.webp', inactiveSrc: '/public/image_webp/jili_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 3', activeSrc: '/public/image_webp/rich_active.webp', inactiveSrc: '/public/image_webp/rich_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 1', activeSrc: '/image_webp/advanplay_active.webp', inactiveSrc: '/image_webp/advanplay_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 2', activeSrc: '/image_webp/jili_active.webp', inactiveSrc: '/image_webp/jili_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 3', activeSrc: '/image_webp/rich_active.webp', inactiveSrc: '/image_webp/rich_no_active.webp', component: 'Menu1', componentId: 'menu1' },
 
-				{ name: 'Menu 4', activeSrc: '/public/image_webp/bongo_active.webp', inactiveSrc: '/public/image_webp/bongo_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 5', activeSrc: '/public/image_webp/pragmatic_active.webp', inactiveSrc: '/public/image_webp/pragmatic_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 6', activeSrc: '/public/image_webp/playtech_active.webp', inactiveSrc: '/public/image_webp/playtech_no_active.webp' },
+				{ name: 'Menu 4', activeSrc: '/image_webp/bongo_active.webp', inactiveSrc: '/image_webp/bongo_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 5', activeSrc: '/image_webp/pragmatic_active.webp', inactiveSrc: '/image_webp/pragmatic_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 6', activeSrc: '/image_webp/playtech_active.webp', inactiveSrc: '/image_webp/playtech_no_active.webp' },
 
-				{ name: 'Menu 7', activeSrc: '/public/image_webp/cewin_active.webp', inactiveSrc: '/public/image_webp/cewin_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 8', activeSrc: '/public/image_webp/jdb_active.webp', inactiveSrc: '/public/image_webp/jdb_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 9', activeSrc: '/public/image_webp/dragoon_active.webp', inactiveSrc: '/public/image_webp/dragoon_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 7', activeSrc: '/image_webp/cewin_active.webp', inactiveSrc: '/image_webp/cewin_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 8', activeSrc: '/image_webp/jdb_active.webp', inactiveSrc: '/image_webp/jdb_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 9', activeSrc: '/image_webp/dragoon_active.webp', inactiveSrc: '/image_webp/dragoon_no_active.webp', component: 'Menu1', componentId: 'menu1' },
 
-				{ name: 'Menu 10', activeSrc: '/public/image_webp/rich88_active.webp', inactiveSrc: '/public/image_webp/rich88_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 11', activeSrc: '/public/image_webp/bigpot_active.webp', inactiveSrc: '/public/image_webp/bigpot_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 12', activeSrc: '/public/image_webp/slot_active.webp', inactiveSrc: '/public/image_webp/slot_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 10', activeSrc: '/image_webp/rich88_active.webp', inactiveSrc: '/image_webp/rich88_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 11', activeSrc: '/image_webp/bigpot_active.webp', inactiveSrc: '/image_webp/bigpot_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 12', activeSrc: '/image_webp/slot_active.webp', inactiveSrc: '/image_webp/slot_no_active.webp', component: 'Menu1', componentId: 'menu1' },
 
-				{ name: 'Menu 13', activeSrc: '/public/image_webp/live_active.webp', inactiveSrc: '/public/image_webp/live_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 14', activeSrc: '/public/image_webp/sport_active.webp', inactiveSrc: '/public/image_webp/sport_no_active.webp', component: 'Menu1', componentId: 'menu1' },
-				{ name: 'Menu 15', activeSrc: '/public/image_webp/other_active.webp', inactiveSrc: '/public/image_webp/other_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 13', activeSrc: '/image_webp/live_active.webp', inactiveSrc: '/image_webp/live_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 14', activeSrc: '/image_webp/sport_active.webp', inactiveSrc: '/image_webp/sport_no_active.webp', component: 'Menu1', componentId: 'menu1' },
+				{ name: 'Menu 15', activeSrc: '/image_webp/other_active.webp', inactiveSrc: '/image_webp/other_no_active.webp', component: 'Menu1', componentId: 'menu1' },
 			],
 		};
 	},

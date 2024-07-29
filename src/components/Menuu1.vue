@@ -2,7 +2,7 @@
 	<div class="main-col container">
 		<div v-for="(image, index) in images" :key="index" class="col">
 			<a :href="`https://www.ataskasino.com/en/sign-up/`" rel="nofollow">
-				<img :src="`/public/1_webp/${image.fileName}.webp`" :alt="image.fileName" class="img-fluid">
+				<img :src="`/1_webp/${image.fileName}.webp`" :alt="image.fileName" class="img-fluid">
 				<p>{{ $t('menu.play') }}</p>
 			</a>
 		</div>
