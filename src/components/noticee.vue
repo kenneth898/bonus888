@@ -4,7 +4,7 @@
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content position-relative">
 				<div class="modal-body p-0 text-center">
-					<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+					<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 						<img src="/public/image_webp/notice.webp" class="img-fluid" alt="notice">
 					</a>
 				</div>

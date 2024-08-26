@@ -200,14 +200,14 @@
 	</p>
 
 	<p>
-		<a style="font-weight: 900; color: #EB212E ; " href="https://www.ataskasino.com/">{{
+		<a style="font-weight: 900; color: #EB212E ; " href="https://www.ataskasino1.com/">{{
 			$t('Footer.1') }}</a>
 		| {{ $t('Footer.2') }}|
 		{{ $t('Footer.3') }}
 	</p>
 
 	<p style="padding-bottom: 80px;">
-		<a style="font-weight: 900;  color: #EB212E ;  " href="https://www.atascasinobet.com/">{{ $t('Footer.4')
+		<a style="font-weight: 900;  color: #EB212E ;  " href="https://www.atascasinobet1.com/">{{ $t('Footer.4')
 			}}</a>
 		| {{ $t('Footer.5') }}
 	</p>

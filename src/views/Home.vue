@@ -43,7 +43,7 @@
 			</div>
 		</div>
 		<div class="icon_col">
-			<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+			<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 				<img width="100%" src="/public/image_webp/download_app.webp" alt="download">
 			</a>
 
@@ -51,7 +51,7 @@
 				<img width="100%" src="/public/image_webp/telegram_subscribe_us.webp" alt="telegram">
 			</a>
 
-			<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+			<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 				<img width="100%" src="/public/image_webp/facebook_follow_us.webp" alt="facebook">
 			</a>
 

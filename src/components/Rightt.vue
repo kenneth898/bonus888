@@ -7,12 +7,12 @@
 					<div class="col-12 bg_img2">
 						<div class="row right">
 							<div class="col-6">
-								<a href="https://www.ataskasino.com/login/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/login/" rel="nofollow">
 									<img width="100%" src="/public/image_webp/right_login.webp" alt="login_btn">
 								</a>
 							</div>
 							<div class="col-6">
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img width="100%" src="/public/image_webp/right_register.webp" alt="login_btn">
 								</a>
 							</div>
@@ -26,15 +26,15 @@
 
 							</div>
 							<div class="col-6 btn_deposit">
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img class="btn_col2" width="100%" src="/public/image_webp/right_deposit.webp"
 										alt="deposit">
 								</a>
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img class="btn_col2" width="100%" src="/public/image_webp/right_withdraw.webp"
 										alt="withdraw">
 								</a>
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img class="btn_col2" width="100%" src="/public/image_webp/right_refresh.webp"
 										alt="refresh">
 								</a>
@@ -47,23 +47,23 @@
 					<div class="col-12 bg_btn">
 						<div class="row btn_col">
 							<div class="col-6">
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img width="100%" src="/public/image_webp/left_btn.webp" alt="share">
 								</a>
 							</div>
 							<div class="col-6">
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img width="100%" src="/public/image_webp/left_btn3.webp" alt="downline">
 								</a>
 							</div>
 							<div class="col-6">
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img style="padding-top: 5px;" width="100%" src="/public/image_webp/left_btn2.webp"
 										alt="referral">
 								</a>
 							</div>
 							<div class="col-6">
-								<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+								<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 									<img style="padding-top: 5px;" width=" 100%" src="/public/image_webp/left_btn4.webp"
 										alt="more info">
 								</a>
@@ -86,7 +86,7 @@
 								<p>{{ $t('right.starttime') }}</p>
 								<p>17 Aug 2024</p>
 								<p class="sportlive_text text_sportlive">03:00</p>
-								<a class="betnow" href="https://www.ataskasino.com/login/" rel="nofollow">{{
+								<a class="betnow" href="https://www.ataskasino1.com/login/" rel="nofollow">{{
 									$t('right.betnow') }}</a>
 							</div>
 							<div class="col-3 text_sportlive">
@@ -98,7 +98,7 @@
 						</div>
 
 						<div class="showmore_col">
-							<a class="showmore" href="https://www.ataskasino.com/en/sport-live/" rel="nofollow">{{
+							<a class="showmore" href="https://www.ataskasino1.com/en/sport-live/" rel="nofollow">{{
 								$t('right.showmore') }}</a>
 						</div>
 
@@ -106,7 +106,7 @@
 
 					<!--desktop view-->
 					<div style="padding-top:10px" class="free_credit">
-						<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+						<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 							<img style="border-radius:15px" width="100%"
 								src="/public/image_webp/free-credit-RM50_D.webp" alt="free_credit_D">
 						</a>
@@ -114,7 +114,7 @@
 
 					<!--mobile view-->
 					<div style="padding-top:10px" class="Download-APK-free-credit-RM50-M">
-						<a href="https://www.ataskasino.com/en/sign-up/" rel="nofollow">
+						<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
 							<img style="border-radius:15px" width="100%"
 								src="/public/image_webp/Download-APK-free-credit-RM50-M.webp" alt="free_credit_M">
 						</a>
