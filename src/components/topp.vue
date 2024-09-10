@@ -31,7 +31,7 @@
 					<p style="margin: 0px;" class="text-item">
 						{{ $t('AnnounceBarWords.1') }}
 
-						{{ $t('AnnounceBarWords.2') }}
+						<!-- {{ $t('AnnounceBarWords.2') }} -->
 					</p>
 
 				</div>

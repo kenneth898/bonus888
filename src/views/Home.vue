@@ -43,7 +43,11 @@
 			</div>
 		</div>
 		<div class="icon_col">
-			<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+			<a :href="link + 'en/sign-up'" rel="nofollow">
+				<img width="100%" src="/public/image_webp/download_app.webp" alt="download">
+			</a>
+
+			<a :href="link + 'en/sign-up'" rel="nofollow">
 				<img width="100%" src="/public/image_webp/download_app.webp" alt="download">
 			</a>
 
@@ -51,7 +55,7 @@
 				<img width="100%" src="/public/image_webp/telegram_subscribe_us.webp" alt="telegram">
 			</a>
 
-			<a href="https://www.ataskasino1.com/en/sign-up/" rel="nofollow">
+			<a :href="link + 'en/sign-up'" rel="nofollow">
 				<img width="100%" src="/public/image_webp/facebook_follow_us.webp" alt="facebook">
 			</a>
 
@@ -69,6 +73,7 @@ import Right from '../components/Rightt.vue';
 import Menu1 from '../components/Menuu1.vue';
 import Content from '@/components/content.vue';
 import Notice from '@/components/noticee.vue';
+import axios from 'axios';
 
 export default {
 	name: 'Home',
@@ -103,6 +108,7 @@ export default {
 				{ name: 'Menu 14', activeSrc: '/image_webp/sport_active.webp', inactiveSrc: '/image_webp/sport_no_active.webp', component: 'Menu1', componentId: 'menu1' },
 				{ name: 'Menu 15', activeSrc: '/image_webp/other_active.webp', inactiveSrc: '/image_webp/other_no_active.webp', component: 'Menu1', componentId: 'menu1' },
 			],
+			link: ""
 		};
 	},
 	computed: {
@@ -110,7 +116,22 @@ export default {
 			return this.menuItems[this.activeIndex].component;
 		}
 	},
+
 	methods: {
+		async calllink() {
+			try {
+				const response = await axios.get('https://seo.mobileapplab.online/api/atas?fields[0]=ataskasino_com', {
+					headers: {
+						"Authorization": "Bearer " + "1c4db3188ab2e9a077928920d9cc8d3322d15f9751bc2054a5cb70008df79cf3e3a4dd005a75a1f2db40eb953292ee10ef699693e96e9d77a98439f438ee6a6e6805a8a955e992f082b9e6118a4345e1ed18438ff9789edf9ed1dd58af45ee6669a7519a1291746959ff45bc2054b7f408b5da5ea8cd04d588a2704b7e218021",
+					}
+				});
+				this.link = response.data.data.attributes.ataskasino_com;
+
+				console.log(this.link);
+			} catch (error) {
+				console.error(error);
+			}
+		},
 		setActive(index, componentId) {
 			this.activeIndex = index;
 			this.scrollTo(componentId);
@@ -122,6 +143,9 @@ export default {
 			}
 		},
 	},
+	mounted() {
+		this.calllink();
+	}
 };
 </script>
 

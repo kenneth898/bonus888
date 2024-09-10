@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+User-agent: Googlebot
+Disallow: /nogooglebot/
+# Crawl delay for overly enthusiastic bots
+User-agent: dotbot
+Crawl-delay: 10
+User-agent: AhrefsBot
+Crawl-delay: 10
+Sitemap: https://www.bonus888.website/sitemap.xml
