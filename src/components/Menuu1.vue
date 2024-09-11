@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import { mapGetters } from 'vuex';
 export default {
 	name: 'Menu1',
 	data() {
@@ -70,7 +70,7 @@ export default {
 				{ fileName: '52-chronicle-of-heroes-divine-tree' },
 				{ fileName: '53-road-to-eurd' }
 			],
-			link: ""
+
 		};
 	},
 	methods: {
@@ -89,8 +89,11 @@ export default {
 			}
 		},
 	},
+	computed: {
+		...mapGetters(['link'])
+	},
 	mounted() {
-		this.calllink();
+		this.$store.dispatch('fetchLink');
 	}
 };
 </script>
