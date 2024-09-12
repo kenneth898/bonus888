@@ -243,7 +243,7 @@ export default {
 				});
 				this.link2 = response.data.data.attributes.atascasinobet_com;
 
-				console.log(this.link2);
+
 			} catch (error) {
 				console.error(error);
 			}
