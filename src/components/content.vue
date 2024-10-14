@@ -206,10 +206,16 @@
 		{{ $t('Footer.3') }}
 	</p>
 
-	<p style="padding-bottom: 80px;">
+	<p>
 		<a :href="link2" style="font-weight: 900;  color: #EB212E ;  ">{{ $t('Footer.4')
 			}}</a>
 		| {{ $t('Footer.5') }}
+	</p>
+	<p style="padding-bottom: 80px;">
+		{{ $t('thirdFooter.1') }}
+		<a :href="link" style="font-weight: 900;  color: #EB212E ;  ">
+			{{ $t('thirdFooter.2') }}</a>
+		{{ $t('thirdFooter.3') }}
 	</p>
 </template>
 <script>
