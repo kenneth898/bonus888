@@ -21,6 +21,18 @@ export default {
 	components: {
 		bottom,
 		top
+	},
+	mounted() {
+		this.checkRedirect();
+	},
+	methods: {
+		checkRedirect() {
+			const permanentRedirects = ['/login'];
+			if (permanentRedirects.includes(window.location.pathname)) {
+				this.isRedirecting = true;
+				window.location.replace('/');
+			}
+		}
 	}
 };
 </script>
